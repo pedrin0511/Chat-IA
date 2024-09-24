@@ -1,0 +1,30 @@
+# Ignore arquivos e pastas comuns
+
+# Diretórios e arquivos de configuração do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.env
+
+# Diretórios e arquivos do Node.js
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-error.log
+
+# Diretórios e arquivos do React (frontend)
+build/
+dist/
+*.log
+
+# Outros arquivos que você deseja ignorar
+*.env
+*.DS_Store
+*.vscode/
+*.idea/
+
+# Se houver arquivos ou diretórios específicos para seu projeto
+# Adicione-os aqui
